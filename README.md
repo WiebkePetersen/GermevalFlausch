@@ -7,8 +7,6 @@ Notebooks:
 
 Important data:
 
-
-Name	Last commit message	Last commit date
   * comments.csv, task1.csv, task2.csv  -- original input data
   * translated_data.csv comments.csv with translations
   * gold_data_task1.csv -- test data with gold values
