@@ -5,6 +5,7 @@ Notebooks:
  * flausch_task2_train_token_classifier.ipynb  -- Notebook that trains a gBERT-large model that classifies all tokens with BIO-labels. Trained model is pushed to HuggingFace Wiebke/flausch_span_gbert-large
  * evaluation.ipynb     -- Notebook that runs the classifiers on test data, evaluates the results against gold data and prepares the submission files.
  * subtask1_features.ipynb -- Notebook that explores combinations of different features using features.csv and ChatGPT generated lists
+ * subtask1_sentiments_and_frequency.ipynb -- first attempts using features, without BERT & ChatGPT generated lists
  * flausch_task2.ipynb -- veraltet
 
 Important data:
