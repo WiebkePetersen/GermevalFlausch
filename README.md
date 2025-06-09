@@ -6,6 +6,7 @@ Notebooks:
  * evaluation.ipynb     -- Notebook that runs the classifiers on test data, evaluates the results against gold data and prepares the submission files.
  * subtask1_features.ipynb -- Notebook that explores combinations of different features using features.csv and ChatGPT generated lists
  * subtask1_sentiments_and_frequency.ipynb -- first attempts using features, without BERT & ChatGPT generated lists
+ * subtask2_spacy.ipynb -- first attempts using spaCy dependencies for determining spans
  * flausch_task2.ipynb -- veraltet
 
 Important data:
