@@ -23,3 +23,11 @@ Important data:
   * positive_tokens.pkl -- list of positive tokens based on positive_words.csv
 
 Use only train_task1.json, train_task2.json for training and development. 
+
+
+
+# Central Links:
+
+  * Task Description: [https://yuliacl.github.io/GermEval2025-Flausch-Erkennung/] 
+  * CodaBench Subtask  1: [https://www.codabench.org/competitions/6120/]
+  * CodaBench Subtask 2: [https://www.codabench.org/competitions/7921/]  
