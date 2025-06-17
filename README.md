@@ -30,4 +30,13 @@ Use only train_task1.json, train_task2.json for training and development.
 
   * Task Description: [https://yuliacl.github.io/GermEval2025-Flausch-Erkennung/] 
   * CodaBench Subtask  1: [https://www.codabench.org/competitions/6120/]
-  * CodaBench Subtask 2: [https://www.codabench.org/competitions/7921/]  
+  * CodaBench Subtask 2: [https://www.codabench.org/competitions/7921/]
+
+
+# Our Results on our test data using the official evaluation skript
+
+## Subtask 1
+
+
+
+## Subtask 2
