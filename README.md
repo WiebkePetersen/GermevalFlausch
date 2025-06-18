@@ -40,11 +40,9 @@ Use only train_task1.json, train_task2.json for training and development.
 
   * Evaluation for configuration **bert-base-german-cased on spelling_corrected**
 
-Precision:	 0.8810 
-Recall:		 0.8793 
-F-score:	 0.8802
-Using model: Wiebke/results_flausch_classification_bert-base-german-cased_comment
-Using access token: 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
+      - Precision:	 0.8810   
+      - Recall:		 0.8793 
+      - F-score:	 0.8802
 
   * Evaluation for configuration **bert-base-german-cased  on comment**
 
@@ -62,15 +60,14 @@ Using access token: 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
 
        - Precision:	 0.8805
        -  Recall:		 0.9320 
-F-score:	 0.9055
+       - F-score:	 0.9055
 
 
-Evaluation for configuration **roberta-large translated**
-TASK 1: BINARY CLASSIFICATION 
+ * Evaluation for configuration **roberta-large translated**
 
-Precision:	 0.8853 
-Recall:		 0.8649 
-F-score:	 0.8750
+       - Precision:	 0.8853 
+       - Recall:		 0.8649 
+       - F-score:	 0.8750
 
 
 **Results**
