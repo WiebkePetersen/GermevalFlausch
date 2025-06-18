@@ -10,7 +10,6 @@ Notebooks:
  * flausch_task2.ipynb -- veraltet
 
 Important data:
-
   * comments.csv, task1.csv, task2.csv  -- original input data
   * translated_data.csv comments.csv with translations
   * comments_extended.csv -- comments.csv with translations, spelling correction & sentiment scores
@@ -41,7 +40,7 @@ Use only train_task1.json, train_task2.json for training and development.
 
 Evaluation for configuration **bert-base-german-cased on spelling_corrected**
 TASK 1: BINARY CLASSIFICATION 
-============================= 
+
 Precision:	 0.8810 
 Recall:		 0.8793 
 F-score:	 0.8802
@@ -50,7 +49,7 @@ Using access token: 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
 
 Evaluation for configuration **bert-base-german-cased  on comment**
 TASK 1: BINARY CLASSIFICATION 
-============================= 
+
 Precision:	 0.8849 
 Recall:		 0.8841 
 F-score:	 0.8845
@@ -59,7 +58,7 @@ Using access token: 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
 
 Evaluation for configuration **gbert-large spelling_corrected**
 TASK 1: BINARY CLASSIFICATION 
-============================= 
+
 Precision:	 0.8866 
 Recall:		 0.9061 
 F-score:	 0.8963
@@ -68,15 +67,15 @@ Using access token: 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
 
 Evaluation for configuration **gbert-large comment**
 TASK 1: BINARY CLASSIFICATION 
-============================= 
+
 Precision:	 0.8805 
 Recall:		 0.9320 
 F-score:	 0.9055
 
 
-Evaluation for configuration roberta-large translated
+Evaluation for configuration **roberta-large translated**
 TASK 1: BINARY CLASSIFICATION 
-============================= 
+
 Precision:	 0.8853 
 Recall:		 0.8649 
 F-score:	 0.8750
