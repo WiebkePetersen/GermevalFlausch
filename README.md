@@ -37,6 +37,55 @@ Use only train_task1.json, train_task2.json for training and development.
 
 ## Subtask 1
 
+### BERT models 
+
+Evaluation for configuration **bert-base-german-cased on spelling_corrected**
+TASK 1: BINARY CLASSIFICATION 
+============================= 
+Precision:	 0.8810 
+Recall:		 0.8793 
+F-score:	 0.8802
+Using model: Wiebke/results_flausch_classification_bert-base-german-cased_comment
+Using access token: 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
+
+Evaluation for configuration **bert-base-german-cased  on comment**
+TASK 1: BINARY CLASSIFICATION 
+============================= 
+Precision:	 0.8849 
+Recall:		 0.8841 
+F-score:	 0.8845
+Using model: Wiebke/results_flausch_classification_gbert-large_spelling_corrected
+Using access token: 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
+
+Evaluation for configuration **gbert-large spelling_corrected**
+TASK 1: BINARY CLASSIFICATION 
+============================= 
+Precision:	 0.8866 
+Recall:		 0.9061 
+F-score:	 0.8963
+Using model: Wiebke/results_flausch_classification_gbert-large_comment
+Using access token: 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
+
+Evaluation for configuration **gbert-large comment**
+TASK 1: BINARY CLASSIFICATION 
+============================= 
+Precision:	 0.8805 
+Recall:		 0.9320 
+F-score:	 0.9055
+
+
+Evaluation for configuration roberta-large translated
+TASK 1: BINARY CLASSIFICATION 
+============================= 
+Precision:	 0.8853 
+Recall:		 0.8649 
+F-score:	 0.8750
+
+
+**Results**
+ * comment better than spelling_corrected
+ * BERT large better than BERT base
+ * German better than English
 
 
 ## Subtask 2
