@@ -190,6 +190,8 @@ Use only train_task1.json, train_task2.json for training and development.
 ## Subtask 2
 
 **distilbert_base**  
+
+``` 
 --- Classification Report (Aktueller Evaluationsschritt) ---
                        precision    recall  f1-score   support
 
@@ -207,4 +209,5 @@ affection declaration     0.3713    0.5082    0.4291       366
             micro avg     0.3993    0.4889    0.4396      2113
             macro avg     0.2835    0.2571    0.2510      2113
          weighted avg     0.3866    0.4889    0.4284      2113
+```
 
