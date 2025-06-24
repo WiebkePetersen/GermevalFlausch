@@ -76,6 +76,8 @@ Use only train_task1.json, train_task2.json for training and development.
  * BERT large better than BERT base
  * German better than English
 
+ * => gbert-large comment bestes Modell:  F-score:	 0.9055
+
 ### Logistic regression with different feature combinations
 
 * all sentiment polarity (original, spelling corrected & translation)
