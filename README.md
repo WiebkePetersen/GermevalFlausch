@@ -8,6 +8,7 @@ Notebooks:
  * subtask1_sentiments_and_frequency.ipynb -- first attempts using features, without BERT & ChatGPT generated lists
  * subtask2_spacy.ipynb -- first attempts using spaCy dependencies for determining spans
  * flausch_task2.ipynb -- veraltet
+ * Lehre_... -- nur für Lehre
 
 Important data:
   * comments.csv, task1.csv, task2.csv  -- original input data
