@@ -8,6 +8,7 @@ Notebooks:
  * subtask1_sentiments_and_frequency.ipynb -- first attempts using features, without BERT & ChatGPT generated lists
  * subtask2_spacy.ipynb -- first attempts using spaCy dependencies for determining spans
  * flausch_task2.ipynb -- veraltet
+ * Lehre_... -- nur für Lehre
 
 Important data:
   * comments.csv, task1.csv, task2.csv  -- original input data
@@ -75,5 +76,101 @@ Use only train_task1.json, train_task2.json for training and development.
  * BERT large better than BERT base
  * German better than English
 
+### Logistic regression with different feature combinations
+
+* all sentiment polarity (original, spelling corrected & translation)
+
+       - Precision: 0.7037
+       - Recall: 0.5534
+       - F-score: 0.6196
+
+* all nuanced sentiments for English translation (anger, disgust, fear, joy, neutral, sadness, surprise)
+
+       - Precision: 0.6905
+       - Recall: 0.4223
+       - F-score: 0.5241
+
+* all sentiments
+
+       - Precision: 0.7535
+       - Recall: 0.5194
+       - F-score: 0.6149
+
+* all sentiments + word & token count + token ratio
+
+       - Precision: 0.8064
+       - Recall: 0.6068
+       - F-score: 0.6925
+
+* all features except BERT models (sentiments + word, token, emoji & emoticon counts + token ratio + additional characters + all caps)
+
+       - Precision: 0.7853
+       - Recall: 0.6214
+       - F-score: 0.6938
+  
+* all features (including BERT models)
+
+       - Precision: 0.9363
+       - Recall: 0.9272
+       - F-score: 0.9317
+
+* all BERT models
+
+       - Precision: 0.9444
+       - Recall:	0.9078
+       - F-score:	0.9257
+
+* all BERT models + all sentiment polarity
+
+       - Precision: 0.9394
+       - Recall: 0.9029
+       - F-score: 0.9208
+
+* all BERT models + all nuanced sentiments for English translation
+
+       - Precision: 0.9397
+       - Recall: 0.9078
+       - F-score: 0.9235
+  
+* all BERT models + all sentiments
+
+       - Precision: 0.9397
+       - Recall: 0.9078
+       - F-score: 0.9235
+
+* all BERT models + all sentiments + word & token count + token ratio
+
+       - Precision: 0.9307
+       - Recall: 0.9126
+       - F-score: 0.9216
+
+* **gbert-large comment** + all sentiments + word & token count + token ratio
+
+       - Precision: 0.9286
+       - Recall: 0.9466
+       - F-score: 0.9375
+
+* **gbert-large comment** + only original sentiment polarity + all English nuanced sentiments + word & token count + token ratio
+
+       - Precision: 0.9286
+       - Recall: 0.9466
+       - F-score: 0.9375
+
+* **gbert-large comment** + all sentiment polarity + English nuanced sentiments only fear & neutral + word & token count + token ratio
+
+       - Precision: 0.9286
+       - Recall: 0.9466
+       - F-score: 0.9375
+
+* **gbert-large comment** + only original sentiment polarity + English nuanced sentiments only fear & neutral + word & token count + token ratio
+
+       - Precision: 0.9286
+       - Recall: 0.9466
+       - F-score: 0.9375
+
+**Results**
+ * in combination with other features only gbert-large comment better than using all
+ * for sentiment polarity the original comment is most important
+ * for English nuanced sentiments fear & neutral are most important
 
 ## Subtask 2
