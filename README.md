@@ -158,13 +158,13 @@ Use only train_task1.json, train_task2.json for training and development.
        - Recall: 0.9466
        - F-score: 0.9375
 
-* **gbert-large comment** + all sentiment polarity + English nuanced sentiments only fear & neutral + word & token count + token ratio
+* **gbert-large comment** + all sentiment polarity + English nuanced sentiments only joy & neutral + word & token count + token ratio
 
        - Precision: 0.9286
        - Recall: 0.9466
        - F-score: 0.9375
 
-* **gbert-large comment** + only original sentiment polarity + English nuanced sentiments only fear & neutral + word & token count + token ratio
+* **gbert-large comment** + only original sentiment polarity + English nuanced sentiments only joy & neutral + word & token count + token ratio
 
        - Precision: 0.9286
        - Recall: 0.9466
