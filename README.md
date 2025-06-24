@@ -174,3 +174,23 @@ Use only train_task1.json, train_task2.json for training and development.
  * for English nuanced sentiments fear & neutral are most important
 
 ## Subtask 2
+
+**distilbert_base**  
+--- Classification Report (Aktueller Evaluationsschritt) ---
+                       precision    recall  f1-score   support
+
+affection declaration     0.3713    0.5082    0.4291       366
+            agreement     0.0000    0.0000    0.0000        33
+            ambiguous     0.8571    0.2500    0.3871        24
+           compliment     0.2987    0.3911    0.3387       404
+        encouragement     0.3883    0.3846    0.3865       104
+            gratitude     0.4138    0.4138    0.4138        29
+     group membership     0.0556    0.0400    0.0465        25
+             implicit     0.0000    0.0000    0.0000        33
+    positive feedback     0.4500    0.5833    0.5081      1080
+             sympathy     0.0000    0.0000    0.0000        15
+
+            micro avg     0.3993    0.4889    0.4396      2113
+            macro avg     0.2835    0.2571    0.2510      2113
+         weighted avg     0.3866    0.4889    0.4284      2113
+
