@@ -109,6 +109,12 @@ Use only train_task1.json, train_task2.json for training and development.
        - Precision: 0.7853
        - Recall: 0.6214
        - F-score: 0.6938
+
+* word, token, emoji & emoticon counts + token ratio + additional characters + all caps
+
+       - Precision: 0.7447
+       - Recall: 0.6097
+       - F-score: 0.6052
   
 * all features (including BERT models)
 
