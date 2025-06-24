@@ -146,6 +146,12 @@ Use only train_task1.json, train_task2.json for training and development.
        - Recall: 0.9126
        - F-score: 0.9216
 
+* **gbert-large comment** + all non-BERT features
+
+       - Precision: 0.9198
+       - Recall: 0.9466
+       - F-score: 0.933
+
 * **gbert-large comment** + all sentiments + word & token count + token ratio
 
        - Precision: 0.9286
