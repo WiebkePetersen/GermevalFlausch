@@ -330,6 +330,80 @@ f1    0.800000  0.883721
 ```
 
 
+**gbert-large** 2-step approach: first span detection then span classification but with classifier which also has class "not" flausch
+
+
+```
+STRICT:
+  0.6844816484224082 0.7007251153592617 0.6925081433224755
+SPANS:
+  0.7598197037990985 0.7778510217534608 0.7687296416938111
+TYPES:
+  0.7759175788795879 0.7943309162821358 0.7850162866449512
+positive feedback
+        STRICT     TYPES
+prec  0.811268  0.919008
+rec   0.708487  0.838612
+f1    0.756402  0.876972
+
+affection declaration
+        STRICT     TYPES
+prec  0.756098  0.867841
+rec   0.738095  0.864035
+f1    0.746988  0.865934
+
+group membership
+        STRICT     TYPES
+prec  0.666667  0.812500
+rec   0.571429  0.722222
+f1    0.615385  0.764706
+
+encouragement
+        STRICT     TYPES
+prec  0.787500  0.934211
+rec   0.724138  0.855422
+f1    0.754491  0.893082
+
+compliment
+        STRICT     TYPES
+prec  0.680412  0.841270
+rec   0.741573  0.894515
+f1    0.709677  0.867076
+
+ambiguous
+        STRICT     TYPES
+prec  0.666667  0.666667
+rec   0.272727  0.272727
+f1    0.387097  0.387097
+
+implicit
+        STRICT     TYPES
+prec  0.250000  0.750000
+rec   0.090909  0.272727
+f1    0.133333  0.400000
+
+sympathy
+        STRICT     TYPES
+prec  0.166667  0.166667
+rec   0.200000  0.200000
+f1    0.181818  0.181818
+
+agreement
+        STRICT     TYPES
+prec  0.285714  0.285714
+rec   0.125000  0.125000
+f1    0.173913  0.173913
+
+gratitude
+        STRICT     TYPES
+prec  0.900000  0.950000
+rec   0.782609  0.863636
+f1    0.837209  0.904762
+
+
+
+
+```
 
 
 
