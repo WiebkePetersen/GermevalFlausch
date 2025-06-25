@@ -251,6 +251,78 @@ rec   0.695652  0.818182
 f1    0.744186  0.900000
 ```
 
+**gbert-large** 2-step approach: first span detection then span classification
+
+```
+STRICT:
+  0.7192530585962653 0.7363216875411998 0.7276872964169382
+SPANS:
+  0.7598197037990985 0.7778510217534608 0.7687296416938111
+TYPES:
+  0.8235672891178365 0.8431114040870138 0.8332247557003257
+positive feedback
+        STRICT     TYPES
+prec  0.755772  0.873547
+rec   0.765068  0.906486
+f1    0.760391  0.889711
+
+affection declaration
+        STRICT     TYPES
+prec  0.718631  0.862069
+rec   0.750000  0.877193
+f1    0.733981  0.869565
+
+group membership
+        STRICT     TYPES
+prec  0.666667  0.823529
+rec   0.571429  0.777778
+f1    0.615385  0.800000
+
+encouragement
+        STRICT     TYPES
+prec  0.732558  0.875000
+rec   0.724138  0.843373
+f1    0.728324  0.858896
+
+compliment
+        STRICT     TYPES
+prec  0.693380  0.855422
+rec   0.745318  0.898734
+f1    0.718412  0.876543
+
+ambiguous
+        STRICT     TYPES
+prec  0.428571  0.476190
+rec   0.409091  0.454545
+f1    0.418605  0.465116
+
+implicit
+        STRICT     TYPES
+prec  0.181818  0.363636
+rec   0.181818  0.363636
+f1    0.181818  0.363636
+
+sympathy
+        STRICT     TYPES
+prec  0.111111  0.125000
+rec   0.200000  0.200000
+f1    0.142857  0.153846
+
+agreement
+        STRICT     TYPES
+prec  0.153846  0.153846
+rec   0.125000  0.125000
+f1    0.137931  0.137931
+
+gratitude
+        STRICT     TYPES
+prec  0.818182  0.904762
+rec   0.782609  0.863636
+f1    0.800000  0.883721
+```
+
+
+
 
 
             micro avg     0.3993    0.4889    0.4396      2113
