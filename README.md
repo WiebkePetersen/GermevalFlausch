@@ -189,22 +189,69 @@ Use only train_task1.json, train_task2.json for training and development.
 
 ## Subtask 2
 
-**distilbert_base**  
+**gbert-large** all in one: classifier that classifies each token in BIO-scheme
 
-``` 
---- Classification Report (Aktueller Evaluationsschritt) ---
-                       precision    recall  f1-score   support
+```
+prec  0.668156  0.854077
+rec   0.735547  0.900452
+f1    0.700234  0.876652
 
-affection declaration     0.3713    0.5082    0.4291       366
-            agreement     0.0000    0.0000    0.0000        33
-            ambiguous     0.8571    0.2500    0.3871        24
-           compliment     0.2987    0.3911    0.3387       404
-        encouragement     0.3883    0.3846    0.3865       104
-            gratitude     0.4138    0.4138    0.4138        29
-     group membership     0.0556    0.0400    0.0465        25
-             implicit     0.0000    0.0000    0.0000        33
-    positive feedback     0.4500    0.5833    0.5081      1080
-             sympathy     0.0000    0.0000    0.0000        15
+affection declaration
+        STRICT     TYPES
+prec  0.572816  0.818182
+rec   0.702381  0.868421
+f1    0.631016  0.842553
+
+group membership
+        STRICT     TYPES
+prec  0.470588  0.866667
+rec   0.380952  0.722222
+f1    0.421053  0.787879
+
+encouragement
+        STRICT     TYPES
+prec  0.571429  0.909091
+rec   0.643678  0.843373
+f1    0.605405  0.875000
+
+compliment
+        STRICT     TYPES
+prec  0.527221  0.824219
+rec   0.689139  0.890295
+f1    0.597403  0.855984
+
+ambiguous
+        STRICT     TYPES
+prec  0.360000  0.611111
+rec   0.409091  0.500000
+f1    0.382979  0.550000
+
+implicit
+        STRICT     TYPES
+prec  0.200000  0.400000
+rec   0.090909  0.181818
+f1    0.125000  0.250000
+
+sympathy
+      STRICT     TYPES
+prec     0.0  0.250000
+rec      0.0  0.200000
+f1       0.0  0.222222
+
+agreement
+        STRICT     TYPES
+prec  0.166667  0.333333
+rec   0.062500  0.125000
+f1    0.090909  0.181818
+
+gratitude
+        STRICT     TYPES
+prec  0.800000  1.000000
+rec   0.695652  0.818182
+f1    0.744186  0.900000
+```
+
+
 
             micro avg     0.3993    0.4889    0.4396      2113
             macro avg     0.2835    0.2571    0.2510      2113
