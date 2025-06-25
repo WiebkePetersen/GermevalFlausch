@@ -192,6 +192,14 @@ Use only train_task1.json, train_task2.json for training and development.
 **gbert-large** all in one: classifier that classifies each token in BIO-scheme
 
 ```
+STRICT:
+  0.6072874493927125 0.6921555702043507 0.6469500924214417
+SPANS:
+  0.6402544823597455 0.7297297297297297 0.6820702402957486
+TYPES:
+  0.7437825332562175 0.8477257745550428 0.7923598274799754
+positive feedback
+        STRICT     TYPES
 prec  0.668156  0.854077
 rec   0.735547  0.900452
 f1    0.700234  0.876652
