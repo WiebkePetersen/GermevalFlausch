@@ -333,14 +333,9 @@ f1    0.800000  0.883721
 
 
 
-            micro avg     0.3993    0.4889    0.4396      2113
-            macro avg     0.2835    0.2571    0.2510      2113
-         weighted avg     0.3866    0.4889    0.4284      2113
+
+**spacy spans + classifier with type and not-labels**
 ```
-
-
-* spacy spans + classifier
-
 STRICT:
   0.39578630549285176 0.34673698088332233 0.3696416022487702
 SPANS:
@@ -406,3 +401,4 @@ gratitude
 prec  0.214286  0.642857
 rec   0.260870  0.818182
 f1    0.235294  0.720000
+```
