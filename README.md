@@ -341,9 +341,142 @@ f1    0.800000  0.883721
 
 * spacy spans + classifier
 
+Device set to use cpu
+[{'label': 'affection declaration', 'score': 0.9759916067123413},
+ {'label': 'positive feedback', 'score': 0.996753990650177}]
+Wer guckt das 2017 ?
+  document  comment_id  type  start  end  \
+0  NDY-247        1503   NaN      0   20   
+1  NDY-003         929   NaN      0   38   
+2  NDY-003         929   NaN     39   54   
+3  NDY-003         929   NaN     55   70   
+4  NDY-247         724   NaN      0   40   
+
+                                       text  
+0                      Wer guckt das 2017 ?  
+1    naja die übersetzung ist nicht so toll  
+2                           und eure stimme  
+3                           ist schrecklich  
+4  wer ebru ist , steht in der beschreibung  
+  document  comment_id type  start  end  \
+0  NDY-247        1503  not      0   20   
+1  NDY-003         929  NaN      0   38   
+2  NDY-003         929  NaN     39   54   
+3  NDY-003         929  NaN     55   70   
+4  NDY-247         724  NaN      0   40   
+
+                                       text  
+0                      Wer guckt das 2017 ?  
+1    naja die übersetzung ist nicht so toll  
+2                           und eure stimme  
+3                           ist schrecklich  
+4  wer ebru ist , steht in der beschreibung  
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+...
+8884
+8885
+8886
+8887
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+   document  comment_id        type  start  end
+7   NDY-247         736  compliment     89  116
+8   NDY-247         736  compliment    117  142
+11  NDY-247         736  compliment    169  207
+12  NDY-020         826  compliment      0   39
+14  NDY-020         826  compliment     42   71
 STRICT:
   0.39578630549285176 0.34673698088332233 0.3696416022487702
 SPANS:
   0.4161023325808879 0.36453526697429134 0.3886156008432888
 TYPES:
   0.7848006019563581 0.6875411997363217 0.7329585382993675
+{'TOTAL': {'STRICT': {'prec': 0.39578630549285176, 'rec': 0.34673698088332233, 'f1': 0.3696416022487702}, 'SPANS': {'prec': 0.4161023325808879, 'rec': 0.36453526697429134, 'f1': 0.3886156008432888}, 'TYPES': {'prec': 0.7848006019563581, 'rec': 0.6875411997363217, 'f1': 0.7329585382993675}}, 'affection declaration': {'STRICT': {'prec': 0.4790697674418605, 'rec': 0.4087301587301587, 'f1': 0.4411134903640257}, 'TYPES': {'prec': 0.8221153846153846, 'rec': 0.75, 'f1': 0.7844036697247706}}, 'agreement': {'STRICT': {'prec': 0.0, 'rec': 0.0, 'f1': 0.0}, 'TYPES': {'prec': 0.0, 'rec': 0.0, 'f1': 0.0}}, 'ambiguous': {'STRICT': {'prec': 0.4, 'rec': 0.2727272727272727, 'f1': 0.3243243243243243}, 'TYPES': {'prec': 0.4, 'rec': 0.2727272727272727, 'f1': 0.3243243243243243}}, 'compliment': {'STRICT': {'prec': 0.3148148148148148, 'rec': 0.31835205992509363, 'f1': 0.31657355679702054}, 'TYPES': {'prec': 0.7901234567901234, 'rec': 0.810126582278481, 'f1': 0.8}}, 'encouragement': {'STRICT': {'prec': 0.23595505617977527, 'rec': 0.2413793103448276, 'f1': 0.23863636363636362}, 'TYPES': {'prec': 0.8690476190476191, 'rec': 0.8795180722891566, 'f1': 0.8742514970059881}}, 'gratitude': {'STRICT': {'prec': 0.21428571428571427, 'rec': 0.2608695652173913, 'f1': 0.23529411764705882}, 'TYPES': {'prec': 0.6428571428571429, 'rec': 0.8181818181818182, 'f1': 0.7200000000000001}}, 'group membership': {'STRICT': {'prec': 0.21428571428571427, 'rec': 0.14285714285714285, 'f1': 0.17142857142857143}, 'TYPES': {'prec': 0.6923076923076923, 'rec': 0.5, 'f1': 0.5806451612903226}}, 'implicit': {'STRICT': {'prec': 0.25, 'rec': 0.09090909090909091, 'f1': 0.13333333333333333}, 'TYPES': {'prec': 0.5, 'rec': 0.18181818181818182, 'f1': 0.26666666666666666}}, 'positive feedback': {'STRICT': {'prec': 0.4437869822485207, 'rec': 0.36900369003690037, 'f1': 0.4029550033579584}, 'TYPES': {'prec': 0.8252100840336134, 'rec': 0.7405731523378583, 'f1': 0.78060413354531}}, 'sympathy': {'STRICT': {'prec': 0.125, 'rec': 0.2, 'f1': 0.15384615384615385}, 'TYPES': {'prec': 0.125, 'rec': 0.2, 'f1': 0.15384615384615385}}}
+STRICT:
+  0.39578630549285176 0.34673698088332233 0.3696416022487702
+SPANS:
+  0.4161023325808879 0.36453526697429134 0.3886156008432888
+TYPES:
+  0.7848006019563581 0.6875411997363217 0.7329585382993675
+positive feedback
+        STRICT     TYPES
+prec  0.443787  0.825210
+rec   0.369004  0.740573
+f1    0.402955  0.780604
+
+affection declaration
+        STRICT     TYPES
+prec  0.479070  0.822115
+rec   0.408730  0.750000
+f1    0.441113  0.784404
+
+group membership
+        STRICT     TYPES
+prec  0.214286  0.692308
+rec   0.142857  0.500000
+f1    0.171429  0.580645
+
+encouragement
+        STRICT     TYPES
+prec  0.235955  0.869048
+rec   0.241379  0.879518
+f1    0.238636  0.874251
+
+compliment
+        STRICT     TYPES
+prec  0.314815  0.790123
+rec   0.318352  0.810127
+f1    0.316574  0.800000
+
+ambiguous
+        STRICT     TYPES
+prec  0.400000  0.400000
+rec   0.272727  0.272727
+f1    0.324324  0.324324
+
+implicit
+        STRICT     TYPES
+prec  0.250000  0.500000
+rec   0.090909  0.181818
+f1    0.133333  0.266667
+
+sympathy
+        STRICT     TYPES
+prec  0.125000  0.125000
+rec   0.200000  0.200000
+f1    0.153846  0.153846
+
+agreement
+      STRICT  TYPES
+prec     0.0    0.0
+rec      0.0    0.0
+f1       0.0    0.0
+
+gratitude
+        STRICT     TYPES
+prec  0.214286  0.642857
+rec   0.260870  0.818182
+f1    0.235294  0.720000
