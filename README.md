@@ -7,7 +7,7 @@ Notebooks:
  * subtask1_features.ipynb -- Notebook that explores combinations of different features using features.csv and ChatGPT generated lists
  * subtask1_sentiments_and_frequency.ipynb -- first attempts using features, without BERT & ChatGPT generated lists
  * subtask1_test_prediction -- gets submission file for test data for subtask 1
- * subtask2_spacy.ipynb -- first attempts using spaCy dependencies for determining spans
+ * subtask2_spacy_with_classifier.ipynb -- Notebook for approach with spaCy spans; contains preparation of data for training the classifier & using classifier on our test data + evaluation
  * flausch_task2.ipynb -- veraltet
  * Lehre_... -- nur für Lehre
 
