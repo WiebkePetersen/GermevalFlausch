@@ -1,5 +1,4 @@
 Notebooks:
- * flausch_data_generation.ipynb  -- Notebook that (a) generates translations, (b) combines data for task 2 in 1 file, (c) basic data analysis
  * flausch_data_generation_complete.ipynb -- Notebook that (a) generates translations, spelling correction and sentiment scores (b) combines data for task 2 in 1 file (c) splits data into train and test sets
  * flausch_task1_train_classifier.ipynb  -- Notebook that trains a gBERT-large model on binary flausch:yes/no classification. Trained model is pushed to HuggingFace Wiebke/results_flausch_classification_gbert-large
  * flausch_task2_train_token_classifier.ipynb  -- Notebook that trains a gBERT-large model that classifies all tokens with BIO-labels. Trained model is pushed to HuggingFace Wiebke/flausch_span_gbert-large
@@ -10,6 +9,7 @@ Notebooks:
  * subtask2_spacy_with_classifier.ipynb -- Notebook for approach with spaCy spans; contains preparation of data for training the classifier & using classifier on our test data + evaluation
  * flausch_task2.ipynb -- veraltet
  * Lehre_... -- nur für Lehre
+ * veraltet flausch_data_generation.ipynb  -- Notebook that (a) generates translations, (b) combines data for task 2 in 1 file, (c) basic data analysis
 
 Important data:
   * comments.csv, task1.csv, task2.csv  -- original input data
